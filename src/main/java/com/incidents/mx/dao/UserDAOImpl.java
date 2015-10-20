@@ -12,7 +12,6 @@ import org.hibernate.criterion.Restrictions;
 
 public class UserDAOImpl implements UserDAO {
 
-	 
 	SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
     
 	public void save(User u) {
